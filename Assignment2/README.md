@@ -1,3 +1,6 @@
+## Assignment 2
+Starting with assignment 1 as a starting point, add in code to re-exec the server’s child process after forking. You will need to determine how to pass the socket file descriptor between the forked child and the new exec’ed child, so that the new exec’ed child can process the incoming child request.
+
 ## Steps for execution
 ```JSON
 gcc -Wall server.c -o server.out
